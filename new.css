@@ -1,0 +1,32 @@
+body{
+    overflow-y: auto;
+    height: auto;
+    background: url("image/fond_noir.jpg") rgba(0,0,0,0.7);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(20,20,20,0.2);
+        backdrop-filter: blur(10px);
+    }
+
+}
+
+
+.col-md-4{
+    filter: brightness(90%);
+}
+
+.card-text{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+
+}
