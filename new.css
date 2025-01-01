@@ -17,12 +17,14 @@ body{
 
 }
 
-
+.card-title{
+    color: white;
+}
 .col-md-4{
     filter: brightness(90%);
 }
 
-.card-text{
+.card-text-intro{
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
@@ -30,3 +32,4 @@ body{
     text-align: center;
 
 }
+
